@@ -46,7 +46,9 @@ header {
 }
 
 .sign-in-bar button {
+  height: 34px;
   margin-left: 10px;
+  font-size: 0.9rem;
 }
 
 .btn {
@@ -70,13 +72,13 @@ header {
 }
 
 .page-header ul {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .page-header ul li {
   display: inline;
-  margin: 0 10px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  margin: 0 2px;
 }
 
 .page-header a {
@@ -121,6 +123,7 @@ header {
 }
 
 .signup-form label {
+  position: relative;
   display: block;
   color: #404040;
 }
@@ -153,6 +156,7 @@ header {
 .signup-create-account button {
   width: 100%;
   height: 44px;
+  font-size: 1.09rem;
 }
 
 .signup-create-account p {
@@ -201,4 +205,38 @@ header {
   background-color: #fff;
   padding: 25px 20px;
   margin-bottom: 30px;
+}
+
+.icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+}
+
+.mint-svg {
+  background-image: url('./icons/mint.svg');
+}
+
+.quickbooks-svg {
+  background-image: url('./icons/quickbooks.svg');
+}
+
+.turbotax-svg {
+  background-image: url('./icons/turbotax.svg');
+}
+
+.lock-svg {
+  background-image: url('./icons/lock.svg');
+}
+
+.password-open-lock {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 33px;
+  background-image: url('./icons//open-lock.png');
+  background-size: 100%;
 }
